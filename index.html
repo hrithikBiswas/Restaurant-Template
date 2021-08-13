@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- FONT AWESOME -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+            crossorigin="anonymous"
+        />
+
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href="./assets/css/custom.css" />
+        <title>Restaurant</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header">
+            <div class="custom__container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"
+                            ><img
+                                class="logo"
+                                src="./assets/images/logo.png"
+                                alt="logo"
+                        /></a>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup"
+                            aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div
+                            class="collapse navbar-collapse"
+                            id="navbarNavAltMarkup"
+                        >
+                            <div class="navbar-nav nav__links gap-3 ms-auto">
+                                <a
+                                    class="nav-link header__nav text-white"
+                                    href="#"
+                                    >Home</a
+                                >
+                                <a
+                                    class="nav-link header__nav text-white"
+                                    href="#"
+                                    >About</a
+                                >
+                                <a
+                                    class="nav-link header__nav text-white"
+                                    href="#"
+                                    >Ingredients</a
+                                >
+                                <a
+                                    class="nav-link header__nav text-white"
+                                    href="#"
+                                    >Menu</a
+                                >
+                                <a
+                                    class="nav-link header__nav text-white"
+                                    href="#"
+                                    >Reviews</a
+                                >
+                                <a
+                                    class="nav-link header__nav text-white"
+                                    href="#"
+                                    >Reservations</a
+                                >
+                            </div>
+                            <div class="social__links ms-3 d-flex gap-3">
+                                <a class="social__link" href="#"
+                                    ><i class="fab fa-twitter"></i
+                                ></a>
+                                <a class="social__link" href="#"
+                                    ><i class="fab fa-youtube"></i
+                                ></a>
+                                <a class="social__link" href="#"
+                                    ><i class="fab fa-facebook-f"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- MAIN -->
+        <div class="main">
+            <!-- HOME -->
+            <section class="home">
+                <img class="home__img" src="./assets/images/Bg.png" alt="bg" />
+                <div class="custom__container home__container">
+                    <div class="d-flex flex-column text-center text-white">
+                        <h1 class="home__title">
+                            the right ingredients <br />
+                            for the right food
+                        </h1>
+                        <img
+                            src="./assets/images/dividerWhite.png"
+                            alt=""
+                            class="divider"
+                        />
+                        <div class="home__btn mt-5 grid">
+                            <button class="btn home__btn1 text-white px-5">
+                                BOOK TABLE
+                            </button>
+                            <button class="btn home__btn2 text-white px-5">
+                                SEE THE MENU
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FOOD -->
+            <section class="section food">
+                <div class="custom__container food__container d-flex gap-5">
+                    <div class="food__content text-center">
+                        <h1 class="food__title">Just the right food</h1>
+                        <img
+                            class="divider"
+                            src="./assets/images/divider.png"
+                            alt="divider"
+                        />
+                        <p class="food__description">
+                            If you’ve been to one of our restaurants, you’ve
+                            seen – and tasted – what keeps our customers coming
+                            back for more. Perfect materials and freshly baked
+                            food, delicious Lambda cakes, muffins, and gourmet
+                            coffees make us hard to resist! Stop in today and
+                            check us out!
+                        </p>
+                        <img
+                            src="./assets/images/cook.png"
+                            alt="cook"
+                            class="food__content-img"
+                        />
+                    </div>
+                    <div class="food__img">
+                        <img
+                            class="food__img-dish"
+                            src="./assets/images/dish.png"
+                            alt="dish"
+                        />
+                    </div>
+                </div>
+            </section>
+            <!-- INGREDIENTS -->
+            <section class="section ingredients">
+                <div class="custom__container ingredients__container">
+                    <div
+                        class="
+                            ingredients__content
+                            d-flex
+                            flex-column
+                            justify-content-between
+                        "
+                    >
+                        <div class="ingredients__text">
+                            <h1 class="ingredients__title">Fine ingredients</h1>
+                            <img
+                                src="./assets/images/dividerWhite.png"
+                                alt=""
+                                class="divider"
+                            />
+                            <p class="ingredients__desc">
+                                If you’ve been to one of our restaurants, you’ve
+                                seen – and tasted – what keeps our customers
+                                coming back for more. Perfect materials and
+                                freshly baked food, delicious Lambda cakes,
+                                muffins, and gourmet coffees make us hard to
+                                resist! Stop in today and check us out!
+                            </p>
+                        </div>
+                        <div
+                            class="
+                                ingredients__img
+                                d-flex
+                                justify-content-center
+                                gap-4
+                            "
+                        >
+                            <img
+                                src="./assets/images/ingredients1.png"
+                                alt="ingredient"
+                                class="ingredients__img-inside"
+                            />
+                            <img
+                                src="./assets/images/ingredients2.png"
+                                alt="ingredient"
+                                class="ingredients__img-inside"
+                            />
+                            <img
+                                src="./assets/images/ingredients3.png"
+                                alt="ingredient"
+                                class="ingredients__img-inside"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PRICING -->
+            <section class="section pricing">
+                <div class="custom__container pricing__container grid">
+                    <!-- ======== PRICING CONTENT 1 ======== -->
+                    <div class="pricing__content">
+                        <h2 class="pricing__content-title text-center">
+                            Appetisers
+                        </h2>
+                        <img
+                            src="./assets/images/divider.png"
+                            alt="divider"
+                            class="divider text-center"
+                        />
+                        <div class="pricing__items">
+                            <div class="pricing__item">
+                                <div
+                                    class="
+                                        pricing__items-h5
+                                        d-flex
+                                        justify-content-between
+                                        mb-2
+                                    "
+                                >
+                                    <h5 class="pricing__item-title">
+                                        Tzatslkl
+                                    </h5>
+                                    <h5 class="pricing__item-amount">$3.99</h5>
+                                </div>
+                                <p class="pricing__item-desc">
+                                    Refreshing traditional cucumber and garlic
+                                    yoghurt dip.
+                                </p>
+                            </div>
+                            <div class="pricing__item">
+                                <div
+                                    class="
+                                        pricing__items-h5
+                                        d-flex
+                                        justify-content-between
+                                        mb-2
+                                    "
+                                >
+                                    <h5 class="pricing__item-title">
+                                        Auberglne Salad
+                                    </h5>
+                                    <h5 class="pricing__item-amount">$5.50</h5>
+                                </div>
+                                <p class="pricing__item-desc">
+                                    .Pureed eggplant, garlic, green pepper and
+                                    tomato dip.
+                                </p>
+                            </div>
+                            <div class="pricing__item">
+                                <div
+                                    class="
+                                        pricing__items-h5
+                                        d-flex
+                                        justify-content-between
+                                        mb-2
+                                    "
+                                >
+                                    <h5 class="pricing__item-title">
+                                        Auberglne Salad
+                                    </h5>
+                                    <h5 class="pricing__item-amount">$5.50</h5>
+                                </div>
+                                <p class="pricing__item-desc">
+                                    .Pureed eggplant, garlic, green pepper and
+                                    tomato dip.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ======== PRICING CONTENT 2 ======== -->
+                    <div class="pricing__content">
+                        <h2 class="pricing__content-title text-center">
+                            Appetisers
+                        </h2>
+                        <img
+                            src="./assets/images/divider.png"
+                            alt="divider"
+                            class="divider"
+                        />
+                        <div class="pricing__items">
+                            <div class="pricing__item">
+                                <div
+                                    class="
+                                        pricing__items-h5
+                                        d-flex
+                                        justify-content-between
+                                        mb-2
+                                    "
+                                >
+                                    <h5 class="pricing__item-title">Haloumi</h5>
+                                    <h5 class="pricing__item-amount">$3.99</h5>
+                                </div>
+                                <p class="pricing__item-desc">
+                                    Refreshing traditional cucumber and garlic
+                                    yoghurt dip.
+                                </p>
+                            </div>
+                            <div class="pricing__item">
+                                <div
+                                    class="
+                                        pricing__items-h5
+                                        d-flex
+                                        justify-content-between
+                                        mb-2
+                                    "
+                                >
+                                    <h5 class="pricing__item-title">
+                                        Spinach Ple
+                                    </h5>
+                                    <h5 class="pricing__item-amount">$5.50</h5>
+                                </div>
+                                <p class="pricing__item-desc">
+                                    .Pureed eggplant, garlic, green pepper and
+                                    tomato dip.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ======== PRICING CONTENT 3 ======== -->
+                    <div class="pricing__content">
+                        <h2 class="pricing__content-title text-center">
+                            Salads
+                        </h2>
+                        <img
+                            src="./assets/images/divider.png"
+                            alt="divider"
+                            class="divider"
+                        />
+                        <div class="pricing__items">
+                            <div class="pricing__item">
+                                <div
+                                    class="
+                                        pricing__items-h5
+                                        d-flex
+                                        justify-content-between
+                                        mb-2
+                                    "
+                                >
+                                    <h5 class="pricing__item-title">
+                                        Olive Special
+                                    </h5>
+                                    <h5 class="pricing__item-amount">$5.99</h5>
+                                </div>
+                                <p class="pricing__item-desc">
+                                    Refreshing traditional cucumber and garlic
+                                    yoghurt dip.
+                                </p>
+                            </div>
+                            <div class="pricing__item special-item">
+                                <div
+                                    class="
+                                        pricing__items-h5
+                                        d-flex
+                                        justify-content-between
+                                        mb-2
+                                    "
+                                >
+                                    <h5 class="pricing__item-title">
+                                        Greek Salad
+                                    </h5>
+                                    <h5 class="pricing__item-amount">$5.50</h5>
+                                </div>
+                                <p class="pricing__item-desc">
+                                    .Pureed eggplant, garlic, green pepper and
+                                    tomato dip.
+                                </p>
+                                <span class="special-text">Special</span>
+                            </div>
+                            <div class="pricing__item">
+                                <div
+                                    class="
+                                        pricing__items-h5
+                                        d-flex
+                                        justify-content-between
+                                        mb-2
+                                    "
+                                >
+                                    <h5 class="pricing__item-title">
+                                        Gusto Salad
+                                    </h5>
+                                    <h5 class="pricing__item-amount">$5.25</h5>
+                                </div>
+                                <p class="pricing__item-desc">
+                                    .Pureed eggplant, garlic, green pepper and
+                                    tomato dip.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ======== PRICING CONTENT 4 ======== -->
+                    <div class="pricing__content">
+                        <h2 class="pricing__content-title text-center">
+                            Main Dishes
+                        </h2>
+                        <img
+                            src="./assets/images/divider.png"
+                            alt="divider"
+                            class="divider"
+                        />
+                        <div class="pricing__items">
+                            <div class="pricing__item">
+                                <div
+                                    class="
+                                        pricing__items-h5
+                                        d-flex
+                                        justify-content-between
+                                        mb-2
+                                    "
+                                >
+                                    <h5 class="pricing__item-title">
+                                        Cornish Mackerel
+                                    </h5>
+                                    <h5 class="pricing__item-amount">$5.99</h5>
+                                </div>
+                                <p class="pricing__item-desc">
+                                    Refreshing traditional cucumber and garlic
+                                    yoghurt dip.
+                                </p>
+                            </div>
+                            <div class="pricing__item special-item">
+                                <div
+                                    class="
+                                        pricing__items-h5
+                                        d-flex
+                                        justify-content-between
+                                        mb-2
+                                    "
+                                >
+                                    <h5 class="pricing__item-title">
+                                        Roast Lamb
+                                    </h5>
+                                    <h5 class="pricing__item-amount">$5.50</h5>
+                                </div>
+                                <p class="pricing__item-desc">
+                                    .Pureed eggplant, garlic, green pepper and
+                                    tomato dip.
+                                </p>
+                                <span class="special-text">Special</span>
+                            </div>
+                            <div class="pricing__item">
+                                <div
+                                    class="
+                                        pricing__items-h5
+                                        d-flex
+                                        justify-content-between
+                                        mb-2
+                                    "
+                                >
+                                    <h5 class="pricing__item-title">
+                                        Fried Chicken
+                                    </h5>
+                                    <h5 class="pricing__item-amount">$5.25</h5>
+                                </div>
+                                <p class="pricing__item-desc">
+                                    .Pureed eggplant, garlic, green pepper and
+                                    tomato dip.
+                                </p>
+                            </div>
+                            <div class="pricing__item">
+                                <div
+                                    class="
+                                        pricing__items-h5
+                                        d-flex
+                                        justify-content-between
+                                        mb-2
+                                    "
+                                >
+                                    <h5 class="pricing__item-title">
+                                        Pastltslo
+                                    </h5>
+                                    <h5 class="pricing__item-amount">$5.99</h5>
+                                </div>
+                                <p class="pricing__item-desc">
+                                    Refreshing traditional cucumber and garlic
+                                    yoghurt dip.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- REVIEWS -->
+            <section class="section reviews">
+                <div class="custom__container review__container">
+                    <div class="review__content text-center m-auto p-lg-5 p-4">
+                        <h1 class="review__title">Guest Reviews</h1>
+                        <img
+                            class="divider"
+                            src="./assets/images/dividerWhite.png"
+                            alt="divider"
+                        />
+                        <p class="review__desc fs-4 py-md-3 py-1">
+                            <span class="fs-2">&Prime;</span> If you’ve been to
+                            one of our restaurants, you’ve seen – and tasted –
+                            what keeps our customers coming back for more.
+                            Perfect materials and freshly baked food, delicious
+                            Lambda cakes, muffins, and gourmet coffees make us
+                            hard to resist! Stop in today and check us out!
+                        </p>
+                        <span class="review__location"
+                            >-food inc, New Your</span
+                        >
+                    </div>
+                </div>
+            </section>
+            <!-- CONTACT -->
+            <section class="section contact">
+                <div class="custom__container contact__container grid">
+                    <div
+                        class="contact__img justify-content-center d-flex gap-4"
+                    >
+                        <img
+                            class="contact__img-inside"
+                            src="./assets/images/food1.png"
+                            alt="food"
+                        />
+                        <img
+                            class="contact__img-inside"
+                            src="./assets/images/food2.png"
+                            alt="food"
+                        />
+                    </div>
+                    <div class="contact__form">
+                        <div class="contact__content text-center">
+                            <h1 class="contact__title">Just the right food</h1>
+                            <img
+                                src="./assets/images/divider.png"
+                                alt="divider"
+                                class="divider pb-4 pt-1"
+                            />
+                            <p class="contact__desc">
+                                If you’ve been to one of our restaurants, you’ve
+                                seen – and tasted – what keeps our customers
+                                coming back for more. Perfect materials and
+                                freshly baked food.
+                            </p>
+                            <p class="contact__desc">
+                                Delicious Lambda cakes, muffins, and gourmet
+                                coffees make us hard to resist! Stop in today
+                                and check us out! Perfect materials and freshly
+                                baked food.
+                            </p>
+                        </div>
+                        <form action="">
+                            <div class="grid form__data">
+                                <div class="d-flex flex-column">
+                                    <label class="form-label" for="name"
+                                        >Name</label
+                                    >
+                                    <input
+                                        class="form-control"
+                                        type="text"
+                                        placeholder="your name *"
+                                    />
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label class="form-label" for="email"
+                                        >Email</label
+                                    >
+                                    <input
+                                        class="form-control"
+                                        type="email"
+                                        placeholder="your email *"
+                                    />
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label class="form-label" for="date"
+                                        >Date</label
+                                    >
+                                    <input
+                                        class="form-control"
+                                        type="date"
+                                        placeholder="date *"
+                                    />
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label class="form-label" for="num"
+                                        >Party number</label
+                                    >
+                                    <input
+                                        class="form-control"
+                                        type="number"
+                                        placeholder="party number"
+                                    />
+                                </div>
+                            </div>
+                            <button
+                                class="
+                                    btn
+                                    text-light
+                                    contact-btn
+                                    px-5
+                                    mt-4 mt-sm-5
+                                    d-block
+                                    m-auto
+                                "
+                            >
+                                Book now!
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- ========= FOOTER ========= -->
+        <footer class="section footer">
+            <div class="custom__container footer__container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title text-center">About Us</h3>
+                    <img
+                        class="divider pt-2 pb-3"
+                        src="./assets/images/dividerWhite.png"
+                        alt="divider"
+                    />
+                    <div>
+                        <p class="footer__desc">
+                            Lambda's new and expanded Chelsea location
+                            represents a truly authentic
+                            <span class="openSansBold">Greek</span> patisserie,
+                            featuring breakfasts of fresh croissants and
+                            steaming bowls of café.
+                        </p>
+                        <p class="footer__desc">
+                            Lamda the best restaurant in town
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title text-center">About Us</h3>
+                    <img
+                        class="divider pt-2 pb-3"
+                        src="./assets/images/dividerWhite.png"
+                        alt="divider"
+                    />
+                    <div class="mb-sm-5 mb-3">
+                        <p class="footer__desc">
+                            <span class="openSansBold">Mon-Thu:</span>
+                            7:00am-8:00pm
+                        </p>
+                        <p class="footer__desc">
+                            <span class="openSansBold">Fri-Sun:</span>
+                            7:00am-10:00pm
+                        </p>
+                    </div>
+                    <img
+                        src="./assets/images/cards.png"
+                        alt="card"
+                        class="debitCard"
+                    />
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title text-center">About Us</h3>
+                    <img
+                        class="divider pt-2 pb-3"
+                        src="./assets/images/dividerWhite.png"
+                        alt="divider"
+                    />
+                    <div class="mb-sm-5 mb-3">
+                        <p class="footer__desc">
+                            <span class="openSansBold"
+                                >19th Paradise Sitia</span
+                            >
+                        </p>
+                        <p class="footer__desc">
+                            <span class="openSansBold"
+                                >128 Meserole Avenee</span
+                            >
+                        </p>
+                    </div>
+                    <div class="footer__link">
+                        <a class="text-light" href="#"
+                            ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a class="text-light" href="#"
+                            ><i class="fab fa-youtube"></i
+                        ></a>
+                        <a class="text-light" href="#"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
