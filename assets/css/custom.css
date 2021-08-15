@@ -48,6 +48,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
+    transition: all 0.3s;
 }
 .custom__container {
     max-width: 1210px;
